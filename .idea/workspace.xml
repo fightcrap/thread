@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7804e7f2-ec33-42b8-bbc1-23584106ac6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/theSecondDay/VolutileSudy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theSecondDay/SynchronizedBlock.java" afterPath="$PROJECT_DIR$/src/theSecondDay/SynchronizedBlock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronizedBlock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SynchronizedBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theSecondDay/SynchronizedBlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -44,6 +43,21 @@
                 <element signature="e#2434#2435#0" expanded="true" />
                 <element signature="e#2456#2726#0" expanded="true" />
                 <element signature="e#2725#2726#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VolutileSudy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/theSecondDay/VolutileSudy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-544">
+              <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+              <folding>
+                <element signature="e#2699#2847#0" expanded="true" />
+                <element signature="e#2846#2847#0" expanded="true" />
+                <element signature="e#3196#3197#0" expanded="true" />
+                <element signature="e#3222#3223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/theFirstDay/PauseThread.java" />
         <option value="$PROJECT_DIR$/src/theSecondDay/SynchronizedStudy.java" />
         <option value="$PROJECT_DIR$/src/theSecondDay/SynchronizedBlock.java" />
+        <option value="$PROJECT_DIR$/src/theSecondDay/VolutileSudy.java" />
       </list>
     </option>
   </component>
@@ -188,27 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedBlock">
-    <configuration default="false" name="TheApiOfThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="theFirstDay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="theFirstDay.TheApiOfThread" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="thread" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.VolutileSudy">
     <configuration default="false" name="StopThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -277,6 +272,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="theSecondDay.SynchronizedBlock" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="thread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="VolutileSudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="theSecondDay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="theSecondDay.VolutileSudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -622,19 +637,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TheApiOfThread" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StopThread" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PauseThread" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SynchronizedStudy" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SynchronizedBlock" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StopThread" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PauseThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SynchronizedStudy" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SynchronizedBlock" />
+      <item index="4" class="java.lang.String" itemvalue="Application.VolutileSudy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SynchronizedBlock" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SynchronizedStudy" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PauseThread" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StopThread" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TheApiOfThread" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VolutileSudy" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SynchronizedBlock" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SynchronizedStudy" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PauseThread" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StopThread" />
       </list>
     </recent_temporary>
   </component>
@@ -657,7 +672,7 @@
       <workItem from="1496320233222" duration="2617000" />
       <workItem from="1496589045842" duration="258000" />
       <workItem from="1496671492100" duration="4311000" />
-      <workItem from="1496749871095" duration="2400000" />
+      <workItem from="1496749871095" duration="7801000" />
     </task>
     <task id="LOCAL-00001" summary="线程学习第二弹部分内容   同步代码块">
       <created>1496678800743</created>
@@ -666,11 +681,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496678800743</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="线程学习第二弹部分内容   同步代码块完成">
+      <created>1496752313064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496752313064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32196000" />
+    <option name="totallyTimeSpent" value="37597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1313" height="745" extended-state="6" />
@@ -707,7 +729,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="线程学习第二弹部分内容   同步代码块" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程学习第二弹部分内容   同步代码块" />
+    <MESSAGE value="线程学习第二弹部分内容   同步代码块完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程学习第二弹部分内容   同步代码块完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,6 +1037,19 @@
             <element signature="e#2434#2435#0" expanded="true" />
             <element signature="e#2456#2726#0" expanded="true" />
             <element signature="e#2725#2726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theSecondDay/VolutileSudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+          <folding>
+            <element signature="e#2699#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#3196#3197#0" expanded="true" />
+            <element signature="e#3222#3223#0" expanded="true" />
           </folding>
         </state>
       </provider>
