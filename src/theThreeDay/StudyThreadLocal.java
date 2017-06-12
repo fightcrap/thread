@@ -42,7 +42,30 @@ public class StudyThreadLocal {
         thread.start();
         thread1.start();
         //运行结果发现，线程二并没有修改线程一中的值，两个线程锁拥有的值是各自独立的，相当于他们自己的标示一样，除非本身修改，不然不会被别的线程所影响
+        Thread thread3=new Thread(){
+            @Override
+            public void run(){
+                try {
 
+                    System.out.println("变量修改");
+                    Thread.sleep(5000);
+                    System.out.println(Thread.currentThread().getName()+TempThreadLocal.threadLocal.get());
+                }catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+            }
+        };
+        thread3.start();
+        //执行第三个线程的时候发现，默认的线程变量是为空的，那么，能不能修改这个默认的值呢？答案当然是肯定的
+        NewThreadLocal newThreadLocal=new NewThreadLocal();
+        Thread thread4=new Thread(){
+            @Override
+            public void run(){
+               System.out.println(newThreadLocal.get());
+            }
+        };
+        thread4.start();
+        //结果可以发现，输出的结果不是空，而是我们自定义的字符串
     }
 }
 
@@ -57,5 +80,15 @@ class TempThreadLocal{
 
     public void set(Object object){
         threadLocal.set(object);
+    }
+}
+
+/**
+ * 创建一个线程变量，使得初始化不会空
+ */
+class NewThreadLocal extends ThreadLocal{
+    @Override
+    protected Object initialValue() {
+        return "已经不为空了";
     }
 }
