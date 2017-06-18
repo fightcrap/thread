@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7804e7f2-ec33-42b8-bbc1-23584106ac6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/theFourthDay/StudyReetranReadWriteLock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theFourthDay/StudyLockApi.java" afterPath="$PROJECT_DIR$/src/theFourthDay/StudyLockApi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="StudyReetranReadWriteLock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/theFourthDay/StudyReetranReadWriteLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="68" column="66" lean-forward="false" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+            <state relative-caret-position="127">
+              <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3234#3235#0" expanded="true" />
@@ -698,7 +695,7 @@
       <workItem from="1497267187338" duration="2394000" />
       <workItem from="1497441710647" duration="7500000" />
       <workItem from="1497529467303" duration="7959000" />
-      <workItem from="1497781941964" duration="6577000" />
+      <workItem from="1497781941964" duration="6657000" />
     </task>
     <task id="LOCAL-00001" summary="线程学习第二弹部分内容   同步代码块">
       <created>1496678800743</created>
@@ -791,11 +788,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497538508355</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="线程学习第四弹  api学习完成，读写锁学习完成">
+      <created>1497791142920</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1497791142920</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81081000" />
+    <option name="totallyTimeSpent" value="81161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -816,7 +820,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31707317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -850,7 +854,8 @@
     <MESSAGE value="线程学习第三弹  全部完成" />
     <MESSAGE value="线程学习第四弹  初步学习lock锁  以及公平锁和生产者模式" />
     <MESSAGE value="线程学习第四弹  api学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程学习第四弹  api学习" />
+    <MESSAGE value="线程学习第四弹  api学习完成，读写锁学习完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程学习第四弹  api学习完成，读写锁学习完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1261,8 +1266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theFourthDay/StudyReetranReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="68" column="66" lean-forward="false" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+        <state relative-caret-position="127">
+          <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3234#3235#0" expanded="true" />
