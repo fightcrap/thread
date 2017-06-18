@@ -695,7 +695,7 @@
       <workItem from="1497267187338" duration="2394000" />
       <workItem from="1497441710647" duration="7500000" />
       <workItem from="1497529467303" duration="7959000" />
-      <workItem from="1497781941964" duration="6657000" />
+      <workItem from="1497781941964" duration="6674000" />
     </task>
     <task id="LOCAL-00001" summary="线程学习第二弹部分内容   同步代码块">
       <created>1496678800743</created>
@@ -795,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497791142920</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="线程学习第四弹  api学习完成，读写锁学习完成">
+      <created>1497791204945</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1497791204945</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81161000" />
+    <option name="totallyTimeSpent" value="81178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
