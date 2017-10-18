@@ -1,6 +1,7 @@
 package theFirstDay;
 
 
+import java.util.concurrent.*;
 
 /**
  * Created by zhengjiqi on 2017/5/28.
@@ -27,11 +28,24 @@ public class CreateThread {
      thread.start();
      System.out.println("main线程");//运行后结果可以发现，并不是主线程运行结束了，子线程就停止运行,而且顺序是不定的哦，
         // 在学习线程就要抛弃以往顺序逻辑思维来。
+
      //testThread.run();
      /*这里解释一下start函数和run函数的区别，调用线程在两个是常用的方法，run函数只是像平常调用函数
         的情况相似，并不会开启一个线程来进行执行，start函数是开启一个新的线程来执行，会自动调用run函数
      */
-
+        /**
+         * 实现第三种情况
+         */
+        ExecutorService executorService=Executors.newCachedThreadPool();
+        Callable<String> stringCallable=new CallThread("测试线程");
+        Future<String> future=executorService.submit(stringCallable);
+        try {
+            System.out.println(future.get());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
     }
 }
 
@@ -43,5 +57,29 @@ class TestThread extends Thread{
     @Override
     public void run(){
         System.out.println("我只是测试");
+    }
+}
+
+/**
+ * 实现第三种情况
+ */
+
+class CallThread implements Callable<String>{
+
+    public CallThread(){}
+
+    public CallThread(String name){
+        this.name=name;
+    }
+
+    private String name;
+
+    @Override
+    public String call() throws Exception {
+        System.out.println(this.name+"线程被执行");
+        Thread.sleep(3000);
+        System.out.println(this.name+"线程执行结束");
+
+        return this.name;
     }
 }
